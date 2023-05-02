@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'org.techtown.kotlinpractice_10'
+    namespace 'org.techtown.notification'
     compileSdk 33
 
     defaultConfig {
-        applicationId "org.techtown.kotlinpractice_10"
+        applicationId "org.techtown.notification"
         minSdk 21
         targetSdk 33
         versionCode 1
@@ -29,6 +29,9 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
+    }
+    viewBinding {
+        enabled = true
     }
 }
 
